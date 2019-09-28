@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Insurance</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>    
+
+</head>
+
+<body>
+
+<header>
+
+		<div>
+			<img src="img/logo.png">
+		</div>
+
+		<div id="bannerTop">
+			<a href="https://codefactory.wien/en/home-en/" title="CodeFactory" target="_blank"><img src="img/banner.png"></a>
+		</div>		
+
+</header>
+
+	<nav id="topNav">
+		<ul>
+			<li>Home</li>
+			<li>Team</li>
+		</ul>
+	</nav>
+
+<main>
+
+	<div id="traffic">
+		
+    	<h2>Car Insurance</h2>
+		
+		<div id="form">
+	  	
+	  	<div id="back">	<!-- this div is only for the white background -->
+	  	</div>
+
+
+      	 <div>
+      	 	<h3>Great coverage begins with a costum quote</h3>
+      	 </div>
+
+        <div>
+        	<p>Your name:</p>
+        	<input id="name" type="text" placeholder="Your Name" value=""><br>
+			<p>Country:</p>
+        	<select id="country" placeholder="Choose one..." value="">
+            	<option>Choose one...</option>
+            	<option value="Austria">Austria</option>
+            	<option value="Hungary">Hungary</option>
+            	<option value="Greece">Greece</option>
+        	</select><br>
+        	
+			<p>Age:</p>
+        	<input id="age" maxlength="2" type="text" placeholder="Your Age" name="age" value=""><br>
+        	<p>Horsepower of your car: </p>
+        	<input id="horsepower" maxlength="3" type="text" placeholder="Horsepower" value=""><br>
+
+    		<button onclick="calculateInsurance()">Calculate</button>
+        
+        	<div>
+            	<p id="message"></p><br>
+        	</div>
+
+        </div>	
+
+    	</div>
+
+    </div> 
+
+    <div id="middleBoxes">
+        	
+        	<div class="coverage">
+          		<h3>Standard</h3>
+        		<p>The coverage you need</p>
+        		<ul>
+        			<li>Bodily Injury Liability</li>
+        			<li>Property Damage</li>
+        			<li>Medical Payments</li>
+        		</ul>
+        		<h4>Benefits</h4>
+				<p>12-month rate guarantee | 24/7 costumer service | Lifetime Repair Guarantee</p>
+        	</div>
+
+        	
+        	<div class="coverage">
+        		<h3>Add-on protection & coverage</h3>
+        		<p>For more peace of mind</p>
+        		<ul>
+        			<li>Better Car Replacement</li>
+        			<li>Towing & Labor</li>
+        			<li>Rental Car Coverage</li>
+        		</ul>
+        		<h4>Earned Benefits</h4>
+        		<p>Accident Forgiveness | New Car Replacement &trade;</p>
+        	</div>
+        </div>
+            
+        
+</main>
+
+<footer>
+
+	 <nav id="bottomNav">
+	 	<ul>
+	 		<li>Home</li>
+			<li>Team</li>
+	 	</ul>
+	 </nav>
+
+	 <div><img src="img/logo-inv.png"></div> 
+	 <div><p>Attila Takacs - CodeFactory 2020</p></div>
+		
+</footer>
+    
+</body>
+</html>
